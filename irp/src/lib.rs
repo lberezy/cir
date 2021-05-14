@@ -94,6 +94,7 @@
 //!     println!("{}", irp::rawir::print_to_string(&rawir));
 //!
 
+mod decode;
 mod encode;
 pub mod mode2;
 mod parser;
